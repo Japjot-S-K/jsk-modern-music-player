@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://jsk-music-backend.onrender.com";
 
 // PLAYLISTS
 export async function createPlaylist(userId, name) {
@@ -49,3 +49,4 @@ export async function deleteSongFromPlaylist(
   );
   return res.json();
 }
+
