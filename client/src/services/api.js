@@ -1,6 +1,6 @@
 const API_BASE = "https://jsk-music-backend.onrender.com/api";
 
-// PLAYLISTS
+// CREATE PLAYLIST
 export async function createPlaylist(userId, name) {
   const res = await fetch(`${API_BASE}/playlists`, {
     method: "POST",
@@ -10,11 +10,13 @@ export async function createPlaylist(userId, name) {
   return res.json();
 }
 
+// GET PLAYLISTS
 export async function getPlaylists(userId) {
   const res = await fetch(`${API_BASE}/playlists/${userId}`);
   return res.json();
 }
 
+// ADD SONG
 export async function addSongToPlaylist(playlistId, song) {
   const res = await fetch(
     `${API_BASE}/playlists/${playlistId}/song`,
@@ -27,27 +29,20 @@ export async function addSongToPlaylist(playlistId, song) {
   return res.json();
 }
 
-// ❌ DELETE PLAYLIST
+// DELETE PLAYLIST
 export async function deletePlaylist(playlistId) {
   const res = await fetch(
     `${API_BASE}/playlists/${playlistId}`,
-    {
-      method: "DELETE",
-    }
+    { method: "DELETE" }
   );
   return res.json();
 }
 
-// ❌ DELETE SONG FROM PLAYLIST
-export async function deleteSongFromPlaylist(
-  playlistId,
-  songId
-) {
+// DELETE SONG
+export async function deleteSongFromPlaylist(playlistId, songId) {
   const res = await fetch(
     `${API_BASE}/playlists/${playlistId}/song/${songId}`,
     { method: "DELETE" }
   );
   return res.json();
 }
-
-
