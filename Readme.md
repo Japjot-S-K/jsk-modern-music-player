@@ -32,7 +32,8 @@ The core music player allows users to:
 - Navigate between tracks
 - Control playback seamlessly
 
-![Music Player UI](https://via.placeholder.com/900x500?text=Music+Player+UI)
+<img width="1919" height="973" alt="image" src="https://github.com/user-attachments/assets/b1602025-b916-417c-aeac-58cb6fdfe6c9" />
+
 
 ---
 
@@ -44,29 +45,11 @@ Users can create unlimited playlists, add songs, and manage them effortlessly.
 - Prevent duplicate songs
 - Delete playlists or individual tracks
 
-![Create Playlist UI](https://via.placeholder.com/900x500?text=Create+Playlist+UI)
+<img width="1919" height="972" alt="image" src="https://github.com/user-attachments/assets/77f82dae-2ba9-4d6d-a033-03542f41d1fb" />
+
 
 ---
 
-### 🎨 Smart Playlist Covers
-- Automatically displays a random song cover when songs exist
-- Shows a clean gradient placeholder for empty playlists
-
-![Playlist Cover UI](https://via.placeholder.com/900x500?text=Playlist+Cover+UI)
-
----
-
-### 📱 Responsive Design
-The application is fully responsive and optimized for:
-- Desktop
-- Tablet
-- Mobile devices
-
-Includes a mobile-friendly hamburger sidebar and adaptive layouts.
-
-![Responsive UI](https://via.placeholder.com/900x500?text=Responsive+Design+UI)
-
----
 
 ## ✨ Features
 
@@ -150,4 +133,5 @@ npm run dev
 ---
 
 ⭐ If you like this project, consider starring the repo!
+
 
