@@ -21,7 +21,7 @@ The app allows users to search songs, play previews, create playlists, and manag
 ### 🔐 Authentication (Google Sign-In)
 Users are greeted with a clean login screen where they can securely sign in using Google Authentication.
 
-![Google Login UI](https://via.placeholder.com/900x500?text=Google+Login+UI)
+<img width="1608" height="884" alt="image" src="https://github.com/user-attachments/assets/11dd0499-a031-452a-9930-1ff9e77e6742" />
 
 ---
 
@@ -150,3 +150,4 @@ npm run dev
 ---
 
 ⭐ If you like this project, consider starring the repo!
+
