@@ -10,7 +10,7 @@ The app allows users to search songs, play previews, create playlists, and manag
 ## 🎬 Demo Video
 
 ▶️ **Project Demo (Click to Play)**  
-🔗 https://example.com/demo-video.mp4
+[🔗 https://example.com/demo-video.mp4](https://github.com/user-attachments/assets/306481f6-b33e-45b1-bf68-b216b20d1971)
 
 > Replace the above link with your actual `.mp4` demo file hosted on GitHub or any other platform.
 
@@ -133,5 +133,6 @@ npm run dev
 ---
 
 ⭐ If you like this project, consider starring the repo!
+
 
 
