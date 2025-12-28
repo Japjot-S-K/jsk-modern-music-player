@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/306481f6-b33e-45b1-bf68-b216b20d1971
 ### 🔐 Authentication (Google Sign-In)
 Users are greeted with a clean login screen where they can securely sign in using Google Authentication.
 
-<img width="1608" height="884" alt="image" src="https://github.com/user-attachments/assets/11dd0499-a031-452a-9930-1ff9e77e6742" />
+<img width="1308" height="384" alt="image" src="https://github.com/user-attachments/assets/11dd0499-a031-452a-9930-1ff9e77e6742" />
 
 ---
 
@@ -132,6 +132,7 @@ npm run dev
 ---
 
 ⭐ If you like this project, consider starring the repo!
+
 
 
 
